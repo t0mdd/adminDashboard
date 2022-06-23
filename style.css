@@ -23,17 +23,21 @@ body {
   grid-template: 1fr 5fr / 1fr 5fr;
 }
 
-div.sidebar {
+nav {
   background-color: plum;
   grid-area: 1 / 1 / -1 / 2;
 }
 
-div.header {
+header {
   background-color: wheat;
   grid-area: 1 / 2 / 2 / -1;
 }
 
-div.main-content {
+main {
   background-color: violet;
   grid-area: 2 / 2 / -1 / -1;
+}
+
+main div {
+  background-color: powderblue;
 }

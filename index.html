@@ -8,8 +8,195 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="sidebar"></div>
-  <div class="header"></div>
-  <div class="main-content"></div>
+  <nav class="sidebar">
+    <img src="apeFruit.png" alt="Dashboard Logo" id="dashboard-logo">
+    <h1 class="title">Dashboard</h1>
+
+
+    <img src="homeIcon" alt="Home icon">
+    <a href="index.html">Home</a>
+
+    <img src="profileIcon" alt="Profile icon">
+    <a href="profile.html">Profile</a>
+
+    <img src="messagesIcon" alt="Messages icon">
+    <a href="messages.html">Messages</a>
+
+    <img src="historyIcon" alt="History icon">
+    <a href="history.html">History</a>
+
+    <img src="tasksIcon" alt="Tasks icon">
+    <a href="tasks.html">Tasks</a>
+
+    <img src="communitiesIcon" alt="Communities icon">
+    <a href="communities.html">Communities</a>
+
+
+    <img src="settingsIcon" alt="Settings icon">
+    <a href="settings.html">Settings</a>
+
+    <img src="supportIcon" alt="Support icon">
+    <a href="support.html">Support</a>
+
+    <img src="privacyIcon" alt="Privacy icon">
+    <a href="privacy.html">Privacy</a>
+  </nav>
+
+  <header class="header">
+    <form action="processSearch.php">
+      <input type="text">
+      <input type="submit" value="">
+    </form>
+
+    <img src="notificationsIcon" alt="Notifications icon">
+    <img class="profilePicture" src="profilePicture" alt="Profile picture">
+    <h2 class="legalName">Yournay Mheer</h2>
+
+
+    <img class="profilePicture" src="profilePicture" alt="Profile picture">
+    <h3 class="welcomeMessage">Hi there,</h3>
+    <h1 class="legalName">
+      Yournay Mheer <span class="username">yournay</span>
+    </h1>
+
+    <button>New</button>
+    <button>Upload</button>
+    <button>Share</button>
+  </header>
+
+  <main class="main-content">
+    <h2>Your Projects</h2>
+    <div class="projects-container">
+      <div class="dummy-project">
+        <h2 class="project-title">Project Title</h2>
+        <p class="project-description">
+          Project description. Hurry up! Let's do the Secret Santa Party in November. 
+          The client said that he just want a website to generate data, nothing more. 
+        </p>
+        <img src="favouriteIcon" alt="'Add to Favourites' icon">
+        <img src="watchIcon" alt="'Watch Project' icon">
+        <img src="shareIcon" alt="'Share Project' icon">
+      </div>
+
+      <div class="dummy-project">
+        <h2 class="project-title">Project Title</h2>
+        <p class="project-description">
+          Project description. The most important part of the workday is lunchtime. 
+          I don't see your task in Jira so that means you didn't work in this sprint. 
+        </p>
+        <img src="favouriteIcon" alt="'Add to Favourites' icon">
+        <img src="watchIcon" alt="'Watch Project' icon">
+        <img src="shareIcon" alt="'Share Project' icon">
+      </div>
+
+      <div class="dummy-project">
+        <h2 class="project-title">Project Title</h2>
+        <p class="project-description">
+          Project description. Dropping the production database is the 
+          best coffee in the morning. Also, if you don't have a backup 
+          it will work well. We want a backup, it in no way is going down!
+        </p>
+        <img src="favouriteIcon" alt="'Add to Favourites' icon">
+        <img src="watchIcon" alt="'Watch Project' icon">
+        <img src="shareIcon" alt="'Share Project' icon">
+      </div>
+
+      <div class="dummy-project">
+        <h2 class="project-title">Project Title</h2>
+        <p class="project-description">
+          Project description. We will give you a slice of pizza if you finish the 
+          code until yesterday. Make it pop remember, the entirety is equal or better.
+        </p>
+        <img src="favouriteIcon" alt="'Add to Favourites' icon">
+        <img src="watchIcon" alt="'Watch Project' icon">
+        <img src="shareIcon" alt="'Share Project' icon">
+      </div>
+
+      <div class="dummy-project">
+        <h2 class="project-title">Project Title</h2>
+        <p class="project-description">
+          Project description. And after that, we will do a Knowledge Share to be 
+          sure that everyone understands. We appreciate your great effort, but you 
+          must follow the rules. 
+        </p>
+        <img src="favouriteIcon" alt="'Add to Favourites' icon">
+        <img src="watchIcon" alt="'Watch Project' icon">
+        <img src="shareIcon" alt="'Share Project' icon">
+      </div>
+
+      <div class="dummy-project">
+        <h2 class="project-title">Project Title</h2>
+        <p class="project-description">
+          Project description. Yes, you can store the passwords in a sticky note on 
+          your screen, because nobody knows your password. We will update the data 
+          that we receive from you. 
+        </p>
+        <img src="favouriteIcon" alt="'Add to Favourites' icon">
+        <img src="watchIcon" alt="'Watch Project' icon">
+        <img src="shareIcon" alt="'Share Project' icon">
+      </div>
+      
+    </div>
+
+    <h2>Announcements</h2>
+    <div class="announcements-container">
+      <div class="dummy-announcement">
+        <h3 class="announcement-title">
+          Practitioner Liaisons
+        </h3>
+        <p class="announcement description">
+          It's urgent, but we don't have time in the next two years to test it, but 
+          we must prioritize it. 
+        </p>
+      </div>
+
+      <div class="dummy-announcement">
+        <h3 class="announcement-title">
+          Strategy management
+        </h3>
+        <p class="announcement description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
+        </p>
+      </div>
+
+      <div class="dummy-announcement">
+        <h3 class="announcement-title">
+          Robust dichotomy measures
+        </h3>
+        <p class="announcement description">
+          An unknown printer took a galley of type and scrambled it to make a type 
+          specimen book.
+        </p>
+      </div>
+    </div>
+
+    <h2>Trending</h2>
+    <div class="trending-container">
+      <div class="dummy-user">
+        <img src="profilePicture1" alt="Dummy profile picture">
+        <h3 class="username">user</h3>
+        <p class="user-description">Human being</p>
+      </div>
+
+      <div class="dummy-user">
+        <img src="profilePicture1" alt="Dummy profile picture">
+        <h3 class="username">ruse</h3>
+        <p class="user-description">Hueman</p>
+      </div>
+
+      <div class="dummy-user">
+        <img src="profilePicture1" alt="Dummy profile picture">
+        <h3 class="username">reuse</h3>
+        <p class="user-description">Being</p>
+      </div>
+
+      <div class="dummy-user">
+        <img src="profilePicture1" alt="Dummy profile picture">
+        <h3 class="username">erase</h3>
+        <p class="user-description">Brogrammer</p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
