@@ -1,5 +1,5 @@
 @font-face {
-  font-family: future-mood;
+  font-family: blissful-thinking;
   src: url('fonts/BlissfulThinking.otf');
 }
 
@@ -24,7 +24,7 @@ ol, ul {
 
 html, body {
   height: 100%;
-  font-family: future-mood;
+  font-family: blissful-thinking;
 }
 
 body {
